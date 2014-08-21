@@ -10,6 +10,7 @@ namespace CSharpAula2{
             //Exercício 1
             Console.WriteLine("1) Faça um programa que informe ao usuário que deverá digitar um número e o programa deverá exibir o resultado do cálculo do quadrado deste número.");
             int numero;
+            Console.Write("Digite um número: ");
             numero = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("O quadrado do número é " + numero * numero);
             //fim do exercício 1
