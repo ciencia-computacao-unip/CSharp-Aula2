@@ -72,6 +72,9 @@ namespace CSharpAula2{
             Console.Write("Agora digite a quantidade máxima de paçoca: ");
             quantidade_maxima = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("O estoque médio de paçoca é " + ((quantidade_minima + quantidade_maxima) / 2));
+            //fim do exercício 5
+
+            Console.ReadKey();
         }
     }
 }
