@@ -59,6 +59,19 @@ namespace CSharpAula2{
             palavra = Console.ReadLine();
             Console.WriteLine("A palavra que você digitou contém " + palavra.Length + " caracteres.");
             //fim do exercício 4
+
+            Console.Write("\n\n\n");
+            
+            //Exercício 5
+            Console.WriteLine("5) Escreva um programa que calcule o estoque médio de um produto, usando a fórmula:");
+            Console.WriteLine("Estoque Médio = (Quantidade Mínima + Quantidade Máxima) / 2");
+            int quantidade_minima, quantidade_maxima;
+            Console.WriteLine("Calculo de estoque médio de Paçoca");
+            Console.Write("Digite a quantidade mínima de paçoca: ");
+            quantidade_minima = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Agora digite a quantidade máxima de paçoca: ");
+            quantidade_maxima = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("O estoque médio de paçoca é " + ((quantidade_minima + quantidade_maxima) / 2));
         }
     }
 }
