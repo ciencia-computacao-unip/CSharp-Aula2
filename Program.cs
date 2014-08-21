@@ -13,6 +13,27 @@ namespace CSharpAula2{
             numero = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("O quadrado do número é " + numero * numero);
             //fim do exercício 1
+
+            Console.Write("\n\n\n");
+
+            //Exercício 2
+            Console.WriteLine("2) Faça um programa que peça para o usuário digitar o nome, idade, altura e peso. Ao final exiba todas as informações lidas.");
+            string nome;
+            int idade;
+            double altura, peso;
+            Console.Write("Digite o seu nome: ");
+            nome = Console.ReadLine();
+            Console.Write("Digite sua idade: ");
+            idade = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Digite sua altura (em cm): ");
+            altura = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Digite o seu peso (em kg): ");
+            peso = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("\n\nSeu nome é " + nome + ".");
+            Console.WriteLine("Sua idade é " + idade + " anos.");
+            Console.WriteLine("Você tem " + altura + "cm de altura.");
+            Console.WriteLine("Seu peso é de " + peso + "kg.");
+            //fim doexercício 2
         }
     }
 }
