@@ -7,6 +7,11 @@ using System.Threading.Tasks;
 namespace CSharpAula2{
     class Program{
         static void Main(string[] args){
+            //embelezamento do console
+            Console.Title = "C# - Aula 2";
+            Console.SetWindowSize(150, 50);
+            //fim da viadagem
+
             //Exercício 1
             Console.WriteLine("1) Faça um programa que informe ao usuário que deverá digitar um número e o programa deverá exibir o resultado do cálculo do quadrado deste número.");
             int numero;
