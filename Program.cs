@@ -34,6 +34,21 @@ namespace CSharpAula2{
             Console.WriteLine("Você tem " + altura + "cm de altura.");
             Console.WriteLine("Seu peso é de " + peso + "kg.");
             //fim doexercício 2
+
+            Console.Write("\n\n\n");
+
+            //Exercício 3
+            Console.WriteLine("3) Faça um programa leia dois números inteiros e exiba todos os resultados das operações aritméticas entre eles.");
+            int primeiro_numero, segundo_numero;
+            Console.Write("Digite o primeiro número: ");
+            primeiro_numero = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Digite o segundo número: ");
+            segundo_numero = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\nA soma dos dois números é "+(primeiro_numero+segundo_numero));
+            Console.WriteLine("A subtração é " + (primeiro_numero - segundo_numero));
+            Console.WriteLine("A multiplicação é " + (primeiro_numero * segundo_numero));
+            Console.WriteLine("A divisão é " + (Convert.ToDouble(primeiro_numero) / Convert.ToDouble(segundo_numero)));
+            //fim do exercício 3
         }
     }
 }
