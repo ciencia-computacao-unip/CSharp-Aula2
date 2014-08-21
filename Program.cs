@@ -39,7 +39,7 @@ namespace CSharpAula2{
             Console.WriteLine("Sua idade é " + idade + " anos.");
             Console.WriteLine("Você tem " + altura + "cm de altura.");
             Console.WriteLine("Seu peso é de " + peso + "kg.");
-            //fim doexercício 2
+            //fim do exercício 2
 
             Console.Write("\n\n\n");
 
