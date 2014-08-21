@@ -49,6 +49,16 @@ namespace CSharpAula2{
             Console.WriteLine("A multiplicação é " + (primeiro_numero * segundo_numero));
             Console.WriteLine("A divisão é " + (Convert.ToDouble(primeiro_numero) / Convert.ToDouble(segundo_numero)));
             //fim do exercício 3
+
+            Console.Write("\n\n\n");
+
+            //Exercício 4
+            Console.WriteLine("4) Escreva um programa que leia uma palavra e ao final exiba a quantidade de caracteres existentes nesta palavra.");
+            String palavra;
+            Console.Write("Digite uma palavra: ");
+            palavra = Console.ReadLine();
+            Console.WriteLine("A palavra que você digitou contém " + palavra.Length + " caracteres.");
+            //fim do exercício 4
         }
     }
 }
